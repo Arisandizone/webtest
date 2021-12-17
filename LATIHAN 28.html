@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>latihan 28</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		div {
+			max-width: 600px;
+			margin: auto;
+			background-color: #C8E3CE;
+			padding: 20px;
+			border-radius: 5px;
+		}
+
+		input[type="text"], select {
+			width: 100%;
+			display: inline-block;
+			padding: 8px 10px;
+			margin: 5px 0;
+			border-radius: 7px;
+			border: none;
+		}
+
+		label {
+			display: block;
+		}
+
+		input[type="button"] {
+			padding: 10px;
+			width: 100%;
+			display: inline-block;
+			border-radius: 7px;
+			margin-top: 10px;
+			border: none;
+			font-size: 1.1rem;
+			font-family: serif;
+			background-color: #7FF36C;
+		}
+
+		input[type="button"]:hover{
+			background-color: #34F42B;
+		}
+	</style>
+</head>
+<body>
+	<h1>form with css</h1>
+	<div>
+	<form action="" id="form1">
+		<label for="Nama pertama">Nama pertama</label>
+		<input type="text" id="Nama pertama" required placeholder="Masukan Nama Pertama.....">
+		<br>
+		<label for="Nama terakhir">Nama terkahir</label>
+		<input type="text" id="Nama terakhir" required placeholder="Masukan Nama terakhir......">
+		<br>
+		<label for="country">Negara</label>
+		<select name="country" id="country">
+			<option value="Indonesia">Indonesia</option>
+			<option value="Malaysia">Malaysia</option>
+			<option value="Singapura">Singapure</option>
+		</select>
+		<input type="button" value="Kirim">
+	</form>
+</div>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
